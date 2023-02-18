@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ApphitungNilai_202031280</string>
+    <string name="appnilai_mahasiswa">AppNIlai Mahasiswa</string>
+    <string name="nim">NIM</string>
+    <string name="nama">NAMA</string>
+    <string name="nilai_kehadiran">Nilai Kehadiran</string>
+    <string name="nilai_tugas">Nilai Tugas</string>
+    <string name="nilai_uts">Nilai UTS</string>
+    <string name="nilai_uas">Nilai UAS</string>
+    <string name="hitung">Hitung</string>
+    <string name="nimresult">NIM : ....................................</string>
+    <string name="namaresult">Nama : ...................................</string>
+    <string name="n_kehadiranresult">N. Kehadiran : ...................................</string>
+    <string name="n_tugasresult">N. Tugas : ...................................</string>
+    <string name="n_utsresult">N. UTS : ...................................</string>
+    <string name="n_uasresult">N. UAS : ...................................</string>
+    <string name="n_akhirresult">N.Akhir : ...................................</string>
+    <string name="muturesult">Mutu : ...................................</string>
+    <string name="predikatresult">Predikat : ...................................</string>
+</resources>
