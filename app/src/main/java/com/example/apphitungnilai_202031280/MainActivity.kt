@@ -24,7 +24,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener{
     private lateinit var tvuas : TextView
     private lateinit var tvakhir : TextView
     private lateinit var tvmutu : TextView
-    private lateinit var tvpredikat : TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -45,7 +44,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener{
         tvuas = findViewById(R.id.tv_resultuas)
         tvakhir = findViewById(R.id.tv_resultakhr)
         tvmutu = findViewById(R.id.tv_resultmt)
-        tvpredikat = findViewById(R.id.tv_resultpdkt)
 
         btnhitung.setOnClickListener(this)
     }
@@ -99,23 +97,18 @@ class MainActivity : AppCompatActivity(), View.OnClickListener{
 
                 if (nilai<=99 && nilai>=80){
                     tvmutu.text = 'A' .toString()
-                    tvpredikat.text = "lulus"
                 }
                 else if (nilai<=79 && nilai>=70){
                     tvmutu.text = 'B' .toString()
-                    tvpredikat.text = "lulus"
                 }
                 else if (nilai<=69 && nilai>=60){
                     tvmutu.text = 'C' .toString()
-                    tvpredikat.text = "lulus"
                 }
                 else if (nilai<=59 && nilai>=40){
                     tvmutu.text = 'D' .toString()
-                    tvpredikat.text = "lulus"
                 }
                 else if (nilai<=40 && nilai>=1){
                     tvmutu.text = 'E' .toString()
-                    tvpredikat.text = "Tidak Lulus"
                 }
             }
         }
